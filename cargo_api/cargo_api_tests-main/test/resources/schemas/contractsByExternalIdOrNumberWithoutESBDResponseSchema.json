@@ -1,0 +1,81 @@
+{
+  "title": "Contracts By External Id Response Schema WithoutESBD",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "gen_contract_num": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string"
+        },
+        "esbd_id": {
+          "type": "null"
+        },
+        "global_id": {
+          "type": "null"
+        },
+        "shipments": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "cargo_category": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "title",
+                "cargo_category"
+              ]
+            }
+          ]
+        },
+        "date_begin": {
+          "type": "string"
+        },
+        "date_end": {
+          "type": "string"
+        },
+        "premium": {
+          "type": "string"
+        },
+        "insurance_amount": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "gen_contract_num",
+        "number",
+        "esbd_id",
+        "global_id",
+        "shipments",
+        "date_begin",
+        "date_end",
+        "premium",
+        "insurance_amount"
+      ]
+    }
+  },
+  "required": [
+    "success",
+    "message",
+    "data"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "gen_contract_num": "",
+  "external_id": "",
+  "waybills": [
+    {
+      "is_last_mile": null,
+      "invoice": "",
+      "waybill": "",
+      "shipment_num": "",
+      "date_begin": "",
+      "date_end": "",
+      "country_from": "",
+      "country_to": "",
+      "country_temporary": [],
+      "city_from": "",
+      "city_to": "",
+      "beneficiary": "",
+      "carrier": "",
+      "forwarder": "",
+      "shipper": "",
+      "consignee": "",
+      "places": null,
+      "transportation_type": null,
+      "items": [
+        {
+          "item_id": "",
+          "name": "",
+          "insured_sum": "",
+          "quantity": null,
+          "is_new": null,
+          "cargo_category": null,
+          "vin_code": ""
+        }
+      ]
+    }
+  ]
+}

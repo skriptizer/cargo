@@ -1,0 +1,18 @@
+{
+    "title": "Request Delete Response Schema",
+    "type": "object",
+    "required": ["success", "message", "data"],
+    "properties": {
+      "success": {
+        "type": "boolean"
+      },
+      "message": {
+        "type": "string"
+      },
+      "data": {
+        "type": "array",
+        "items": {}
+      }
+    }
+  }
+  

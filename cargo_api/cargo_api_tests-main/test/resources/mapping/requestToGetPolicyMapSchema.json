@@ -1,0 +1,7 @@
+{
+  "date_begin": "date_begin",
+  "date_end": "date_end",
+  "contracts.0.country_list.0.country_code_alfa3": "country_from",
+  "contracts.0.country_list.1.country_code_alfa3": "country_to",
+  "contracts.0.property.0.description": "shipment_num"
+}

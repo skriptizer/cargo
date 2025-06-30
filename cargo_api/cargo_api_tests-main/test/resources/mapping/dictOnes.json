@@ -1,0 +1,20 @@
+{
+  "sex": {
+    "male": 1,
+    "female": 0
+  },
+  "payment_form": {
+    "once": 0,
+    "installments": 1
+  },
+  "policy_type": {
+    "main": 0
+  },
+  "policy_status": {
+    "issued": 8,
+    "cancelled": "Данные отстутствуют или договор помечен на удаление!"
+  },
+  "client_form": {
+    "1": 0
+  }
+}

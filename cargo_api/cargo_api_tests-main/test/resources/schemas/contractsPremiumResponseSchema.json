@@ -1,0 +1,140 @@
+{
+    "title": "Contracts Premium Response Schema",
+    "type": "object",
+    "properties": {
+      "success": {
+        "type": "boolean"
+      },
+      "message": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "properties": {
+          "gen_contract_num": {
+            "type": "string"
+          },
+          "agent_id": {
+            "type": "integer"
+          },
+          "insurance_limit": {
+            "type": "string"
+          },
+          "shipments": {
+            "type": "object",
+            "patternProperties": {
+              "^.*$": {
+                "type": "object",
+                "properties": {
+                  "contract_id": {
+                    "type": ["string", "null"]
+                  },
+                  "date_begin": {
+                    "type": "string"
+                  },
+                  "date_end": {
+                    "type": "string"
+                  },
+                  "waybill_ids": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "insurance_amount": {
+                    "type": "number"
+                  },
+                  "cargo_category": {
+                    "type": "integer"
+                  },
+                  "transportation_type": {
+                    "type": "integer"
+                  },
+                  "territory": {
+                    "type": "string"
+                  },
+                  "premium": {
+                    "type": "number"
+                  },
+                  "tariff": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "commission": {
+                        "type": "number"
+                      },
+                      "premium_min": {
+                        "type": "string"
+                      },
+                      "tariff_min": {
+                        "type": "number"
+                      },
+                      "tariff_max": {
+                        "type": "number"
+                      },
+                      "damage_percent": {
+                        "type": "number"
+                      },
+                      "damage_sum": {
+                        "type": ["string", "number"]
+                      },
+                      "loss_percent": {
+                        "type": "number"
+                      },
+                      "loss_sum": {
+                        "type": ["string", "number"]
+                      },
+                      "created_at": {
+                        "type": "string"
+                      },
+                      "updated_at": {
+                        "type": ["string", "null"]
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "commission", 
+                      "premium_min", 
+                      "tariff_min", 
+                      "tariff_max",
+                      "damage_percent", 
+                      "damage_sum", 
+                      "loss_percent", 
+                      "loss_sum", 
+                      "created_at", 
+                      "updated_at"
+                    ]
+                  }
+                },
+                "required": [
+                  "contract_id", 
+                  "date_begin", 
+                  "date_end", 
+                  "waybill_ids",
+                  "insurance_amount", 
+                  "cargo_category", 
+                  "transportation_type",
+                  "territory", 
+                  "premium", 
+                  "tariff"
+                ]
+              }
+            }
+          }
+        },
+        "required": ["gen_contract_num", 
+        "agent_id", 
+        "insurance_limit", 
+        "shipments"
+        ]
+      }
+    },
+    "required": [
+      "success",
+      "message",
+      "data"
+    ]
+  }
+  

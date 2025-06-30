@@ -1,0 +1,18 @@
+{
+  "contracts.0.amount": "CONTRACT_DS_CARGO.AMOUNT",
+  "beneficiarys.0.client_form": "CONTRACT_DS_CARGO.CLIENT_FORM_ID",
+  "beneficiarys.0.client_id_ext": "CONTRACT_DS_CARGO.CLIENT_ID",
+  "clients.0.client_id_ext": "CONTRACT_BENEFIT_RECIPIENT.CLIENT_ID",
+  "contracts.0.id": "CONTRACT_DS_CARGO.CONTRACT_ID",
+  "contracts.0.policy_date": "CONTRACT_DS_CARGO.CONTRACT_DATE",
+  "contracts.0.num_policy": "CONTRACT_DS_CARGO.CONTRACT_NUMBER",
+  "date_begin": "DATE_BEG",
+  "date_end": "DATE_END",
+  "contracts.0.global_id": "CONTRACT_DS_CARGO.GLOBALID",
+  "esbd.0.insurance_type_id": "CONTRACT_DS_CARGO.INSURANCE_TYPE_ID",
+  "payment_schedule.0.date": "CONTRACT_DS_CARGO.PAYMENT_DATE",
+  "payment_form": "PAYMENT_ORDER_TYPE_ID",
+  "premium": "PREMIUM",
+  "contracts.0.verify_bool": "CONTRACT_DS_CARGO.verify_bool",
+  "beneficiarys.0.verify_type_id": "CONTRACT_DS_CARGO.CLIENT_VERIFY_TYPE_ID"
+}

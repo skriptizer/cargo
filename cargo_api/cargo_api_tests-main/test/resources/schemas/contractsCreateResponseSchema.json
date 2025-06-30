@@ -1,0 +1,77 @@
+{
+    "title": "Contracts Create Response Schema",
+    "type": "object",
+    "required": ["success", "message", "data"],
+    "properties": {
+      "success": {
+        "type": "boolean"
+      },
+      "message": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "required": [
+          "id",
+          "gen_contract_num",
+          "number",
+          "esbd_id",
+          "global_id",
+          "shipments",
+          "date_begin",
+          "date_end",
+          "premium",
+          "insurance_amount"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "gen_contract_num": {
+            "type": "string"
+          },
+          "number": {
+            "type": "string"
+          },
+          "esbd_id": {
+            "type": "string"
+          },
+          "global_id": {
+            "type": "string"
+          },
+          "shipments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title", "cargo_category"],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "cargo_category": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "date_begin": {
+            "type": "string",
+            "format": "date"
+          },
+          "date_end": {
+            "type": "string",
+            "format": "date"
+          },
+          "premium": {
+            "type": "string",
+            "pattern": "^\\d+(\\.\\d{1,2})?$"
+          },
+          "insurance_amount": {
+            "type": "string",
+            "pattern": "^\\d+(\\.\\d{1,2})?$"
+          }
+        }
+      }
+    }
+  }
+  

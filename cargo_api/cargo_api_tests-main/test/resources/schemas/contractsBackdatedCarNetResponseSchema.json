@@ -1,0 +1,21 @@
+{
+  "title": "Contracts Backdated carNet Response Schema",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    },
+    "errors": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "success",
+    "message",
+    "errors"
+  ]
+}

@@ -1,0 +1,738 @@
+{
+  "title": "Contracts Create Response Schema Without ESBD",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "esbd": {
+          "type": "number"
+        },
+        "external_id": {},
+        "gen_contract_num": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string"
+        },
+        "esbd_id": {},
+        "global_id": {},
+        "is_reinsurance": {
+          "type": "number"
+        },
+        "agent_id_1c": {},
+        "agent_commission": {
+          "type": "number"
+        },
+        "middleman_id": {},
+        "manager_id_1c": {
+          "type": "number"
+        },
+        "user_id_1c": {
+          "type": "number"
+        },
+        "user_id": {
+          "type": "number"
+        },
+        "date_begin": {
+          "type": "string"
+        },
+        "date_end": {
+          "type": "string"
+        },
+        "premium": {
+          "type": "string"
+        },
+        "insurance_amount": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "online_bool": {},
+        "notification_type": {},
+        "is_verified": {
+          "type": "number"
+        },
+        "status": {
+          "type": "number"
+        },
+        "is_sent_ones": {
+          "type": "number"
+        },
+        "sent_attempts": {
+          "type": "number"
+        },
+        "ones_response": {
+          "type": "string"
+        },
+        "issued_at": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        },
+        "type_id": {
+          "type": "number"
+        },
+        "holder": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "client_id": {
+              "type": "number"
+            },
+            "external_id": {},
+            "contract_id": {
+              "type": "number"
+            },
+            "is_holder": {
+              "type": "number"
+            },
+            "natural_person_bool": {
+              "type": "number"
+            },
+            "born": {},
+            "iin": {
+              "type": "string"
+            },
+            "juridical_person_name": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "middle_name": {
+              "type": "string"
+            },
+            "first_name_eng": {
+              "type": "string"
+            },
+            "last_name_eng": {
+              "type": "string"
+            },
+            "middle_name_eng": {
+              "type": "string"
+            },
+            "sex_id": {
+              "type": "string"
+            },
+            "resident_bool": {
+              "type": "number"
+            },
+            "country_id": {
+              "type": "number"
+            },
+            "country_code": {},
+            "economics_sector_id": {
+              "type": "number"
+            },
+            "activity_kind_id": {
+              "type": "number"
+            },
+            "region_id": {
+              "type": "number"
+            },
+            "document_type_id": {
+              "type": "number"
+            },
+            "document_number": {
+              "type": "string"
+            },
+            "document_gived_date": {
+              "type": "string"
+            },
+            "document_gived_by": {
+              "type": "string"
+            },
+            "juridical_address": {
+              "type": "string"
+            },
+            "email": {},
+            "phone": {},
+            "verify_bool": {
+              "type": "number"
+            },
+            "verify_type_id": {
+              "type": "number"
+            },
+            "dt_verified": {
+              "type": "string"
+            },
+            "terrorist": {
+              "type": "number"
+            },
+            "nat_com": {
+              "type": "number"
+            },
+            "affiliate": {
+              "type": "number"
+            },
+            "unreliable_client": {
+              "type": "number"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "client_id",
+            "external_id",
+            "contract_id",
+            "is_holder",
+            "natural_person_bool",
+            "born",
+            "iin",
+            "juridical_person_name",
+            "first_name",
+            "last_name",
+            "middle_name",
+            "first_name_eng",
+            "last_name_eng",
+            "middle_name_eng",
+            "sex_id",
+            "resident_bool",
+            "country_id",
+            "country_code",
+            "economics_sector_id",
+            "activity_kind_id",
+            "region_id",
+            "document_type_id",
+            "document_number",
+            "document_gived_date",
+            "document_gived_by",
+            "juridical_address",
+            "email",
+            "phone",
+            "verify_bool",
+            "verify_type_id",
+            "dt_verified",
+            "terrorist",
+            "nat_com",
+            "affiliate",
+            "unreliable_client",
+            "created_at",
+            "updated_at"
+          ]
+        },
+        "customer": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "client_id": {
+              "type": "number"
+            },
+            "external_id": {},
+            "contract_id": {
+              "type": "number"
+            },
+            "is_holder": {
+              "type": "number"
+            },
+            "natural_person_bool": {
+              "type": "number"
+            },
+            "born": {},
+            "iin": {
+              "type": "string"
+            },
+            "juridical_person_name": {
+              "type": "string"
+            },
+            "first_name": {
+              "type": "string"
+            },
+            "last_name": {
+              "type": "string"
+            },
+            "middle_name": {
+              "type": "string"
+            },
+            "first_name_eng": {
+              "type": "string"
+            },
+            "last_name_eng": {
+              "type": "string"
+            },
+            "middle_name_eng": {
+              "type": "string"
+            },
+            "sex_id": {
+              "type": "string"
+            },
+            "resident_bool": {
+              "type": "number"
+            },
+            "country_id": {
+              "type": "number"
+            },
+            "country_code": {},
+            "economics_sector_id": {
+              "type": "number"
+            },
+            "activity_kind_id": {
+              "type": "number"
+            },
+            "region_id": {
+              "type": "number"
+            },
+            "document_type_id": {
+              "type": "number"
+            },
+            "document_number": {
+              "type": "string"
+            },
+            "document_gived_date": {
+              "type": "string"
+            },
+            "document_gived_by": {
+              "type": "string"
+            },
+            "juridical_address": {
+              "type": "string"
+            },
+            "email": {},
+            "phone": {},
+            "verify_bool": {
+              "type": "number"
+            },
+            "verify_type_id": {
+              "type": "number"
+            },
+            "dt_verified": {
+              "type": "string"
+            },
+            "terrorist": {
+              "type": "number"
+            },
+            "nat_com": {
+              "type": "number"
+            },
+            "affiliate": {
+              "type": "number"
+            },
+            "unreliable_client": {
+              "type": "number"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "client_id",
+            "external_id",
+            "contract_id",
+            "is_holder",
+            "natural_person_bool",
+            "born",
+            "iin",
+            "juridical_person_name",
+            "first_name",
+            "last_name",
+            "middle_name",
+            "first_name_eng",
+            "last_name_eng",
+            "middle_name_eng",
+            "sex_id",
+            "resident_bool",
+            "country_id",
+            "country_code",
+            "economics_sector_id",
+            "activity_kind_id",
+            "region_id",
+            "document_type_id",
+            "document_number",
+            "document_gived_date",
+            "document_gived_by",
+            "juridical_address",
+            "email",
+            "phone",
+            "verify_bool",
+            "verify_type_id",
+            "dt_verified",
+            "terrorist",
+            "nat_com",
+            "affiliate",
+            "unreliable_client",
+            "created_at",
+            "updated_at"
+          ]
+        },
+        "waybills": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "title": {
+                "type": "string"
+              },
+              "invoice": {
+                "type": "string"
+              },
+              "shipment_num": {
+                "type": "string"
+              },
+              "date_begin": {
+                "type": "string"
+              },
+              "date_end": {
+                "type": "string"
+              },
+              "country_from": {
+                "type": "string"
+              },
+              "country_to": {
+                "type": "string"
+              },
+              "country_temporary": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "city_from": {
+                "type": "string"
+              },
+              "city_to": {
+                "type": "string"
+              },
+              "info": {},
+              "beneficiary": {
+                "type": "string"
+              },
+              "carrier": {
+                "type": "string"
+              },
+              "forwarder": {
+                "type": "string"
+              },
+              "shipper": {
+                "type": "string"
+              },
+              "consignee": {
+                "type": "string"
+              },
+              "transportation_type": {
+                "type": "number"
+              },
+              "is_last_mile": {
+                "type": "number"
+              },
+              "contract_id": {
+                "type": "number"
+              },
+              "shipment_id": {
+                "type": "number"
+              },
+              "request_id": {
+                "type": "number"
+              },
+              "user_id": {
+                "type": "number"
+              },
+              "type_id": {
+                "type": "number"
+              },
+              "is_issued": {
+                "type": "number"
+              },
+              "created_at": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              },
+              "deleted_at": {},
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "item_id": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {},
+                    "quantity": {
+                      "type": "number"
+                    },
+                    "places": {},
+                    "is_new": {
+                      "type": "number"
+                    },
+                    "cargo_category": {
+                      "type": "number"
+                    },
+                    "vin_code": {},
+                    "insured_sum": {
+                      "type": "string"
+                    },
+                    "premium": {},
+                    "waybill_id": {
+                      "type": "number"
+                    },
+                    "request_id": {
+                      "type": "number"
+                    },
+                    "user_id": {
+                      "type": "number"
+                    },
+                    "created_at": {
+                      "type": "string"
+                    },
+                    "updated_at": {
+                      "type": "string"
+                    },
+                    "deleted_at": {}
+                  },
+                  "required": [
+                    "id",
+                    "item_id",
+                    "name",
+                    "description",
+                    "quantity",
+                    "places",
+                    "is_new",
+                    "cargo_category",
+                    "vin_code",
+                    "insured_sum",
+                    "premium",
+                    "waybill_id",
+                    "request_id",
+                    "user_id",
+                    "created_at",
+                    "updated_at",
+                    "deleted_at"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "id",
+              "title",
+              "invoice",
+              "shipment_num",
+              "date_begin",
+              "date_end",
+              "country_from",
+              "country_to",
+              "country_temporary",
+              "city_from",
+              "city_to",
+              "info",
+              "beneficiary",
+              "carrier",
+              "forwarder",
+              "shipper",
+              "consignee",
+              "transportation_type",
+              "is_last_mile",
+              "contract_id",
+              "shipment_id",
+              "request_id",
+              "user_id",
+              "type_id",
+              "is_issued",
+              "created_at",
+              "updated_at",
+              "deleted_at",
+              "items"
+            ]
+          }
+        },
+        "shipments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "title": {
+                "type": "string"
+              },
+              "date_begin": {
+                "type": "string"
+              },
+              "date_end": {
+                "type": "string"
+              },
+              "cargo_category": {
+                "type": "number"
+              },
+              "transportation_type": {
+                "type": "number"
+              },
+              "territory": {
+                "type": "string"
+              },
+              "premium": {
+                "type": "string"
+              },
+              "insurance_amount": {
+                "type": "string"
+              },
+              "tariff": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "loss_sum": {
+                    "type": ["number", "string"]
+                  },
+                  "commission": {
+                    "type": "number"
+                  },
+                  "created_at": {
+                    "type": "string"
+                  },
+                  "damage_sum": {
+                    "type": ["number", "string"]
+                  },
+                  "tariff_max": {
+                    "type": "number"
+                  },
+                  "tariff_min": {
+                    "type": "number"
+                  },
+                  "updated_at": {},
+                  "premium_min": {
+                    "type": "string"
+                  },
+                  "loss_percent": {
+                    "type": "number"
+                  },
+                  "damage_percent": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "id",
+                  "loss_sum",
+                  "commission",
+                  "created_at",
+                  "damage_sum",
+                  "tariff_max",
+                  "tariff_min",
+                  "updated_at",
+                  "premium_min",
+                  "loss_percent",
+                  "damage_percent"
+                ]
+              },
+              "contract_id": {
+                "type": "number"
+              },
+              "created_at": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              },
+              "transportation": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "title",
+              "date_begin",
+              "date_end",
+              "cargo_category",
+              "transportation_type",
+              "territory",
+              "premium",
+              "insurance_amount",
+              "tariff",
+              "contract_id",
+              "created_at",
+              "updated_at",
+              "transportation"
+            ]
+          }
+        }
+      },
+      "required": [
+        "id",
+        "esbd",
+        "external_id",
+        "gen_contract_num",
+        "number",
+        "esbd_id",
+        "global_id",
+        "is_reinsurance",
+        "agent_id_1c",
+        "agent_commission",
+        "middleman_id",
+        "manager_id_1c",
+        "user_id_1c",
+        "user_id",
+        "date_begin",
+        "date_end",
+        "premium",
+        "insurance_amount",
+        "email",
+        "phone",
+        "online_bool",
+        "notification_type",
+        "is_verified",
+        "status",
+        "is_sent_ones",
+        "sent_attempts",
+        "ones_response",
+        "issued_at",
+        "created_at",
+        "updated_at",
+        "type_id",
+        "holder",
+        "customer",
+        "waybills",
+        "shipments"
+      ]
+    }
+  },
+  "required": [
+    "success",
+    "message",
+    "data"
+  ]
+}

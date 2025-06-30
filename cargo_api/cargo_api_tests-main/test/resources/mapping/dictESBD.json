@@ -1,0 +1,20 @@
+{
+  "sex": {
+    "male": 1,
+    "female": 2
+  },
+  "payment_form": {
+    "once": 1,
+    "installments": 2
+  },
+  "policy_type": {
+    "main": 1
+  },
+  "policy_status": {
+    "issued": 0,
+    "cancelled": 6
+  },
+  "client_form": {
+    "1": 1
+  }
+}

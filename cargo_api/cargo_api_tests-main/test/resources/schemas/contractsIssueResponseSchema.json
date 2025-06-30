@@ -1,0 +1,26 @@
+{
+  "title": "Contracts Issue Response Schema",
+  "type": "object",
+  "properties": {
+    "success": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": [
+    "success",
+    "message",
+    "data"
+  ]
+}

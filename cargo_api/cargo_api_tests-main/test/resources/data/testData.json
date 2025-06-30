@@ -1,0 +1,7 @@
+{
+    "timeIncrement": [1, "day"],
+    "datesFormat": "DD.MM.YYYY",
+    "datesFormatReport": "YYYY-MM-DD",
+    "cities": ["Almaty", "Astana", "Novosibirsk", "Moscow"],
+    "countries": ["RUS", "KAZ", "UZB"]
+}

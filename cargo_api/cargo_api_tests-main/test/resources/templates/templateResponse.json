@@ -1,0 +1,48 @@
+{
+    "requestsCreate": {
+        "success": true,
+        "message": "Заявка успешно создана!"
+    },
+    "requestsDelete": {
+        "success": true,
+        "message": "Записи успешно удалены."
+    },
+    "contractsCreate": {
+        "success": true,
+        "message": "Сертификат успешно выписан!"
+    },
+    "contractsCancel": {
+        "success": true,
+        "message": "Договор успешно отменен в ЕСБД и 1С."
+    },
+    "contracts": {
+        "success": true,
+        "message": "Данные по договору(-ам) успешно получены."
+    },
+    "startSetPolicyWaiting": {
+        "status": 1,
+        "message": "Success"
+    },
+    "contractsIssue": {
+        "success": true,
+        "message": "Сертификаты успешно выписаны!"
+    },
+    "contractsDraft": {
+        "success": true,
+        "message": "Черновики успешно созданы!"
+    },
+    "contractsBackdatedCarNet": {
+        "success": false,
+        "message": "Дата начала страховой защиты находится за пределами допустимого периода."
+    },
+    "setPolicyTWB": {
+        "status": 1
+    },
+    "setCancellationTWB": {
+        "status": 1
+    },
+    "contractsPremium": {
+        "success": true,
+        "message": "Премия успешно рассчитана!"
+    }
+}

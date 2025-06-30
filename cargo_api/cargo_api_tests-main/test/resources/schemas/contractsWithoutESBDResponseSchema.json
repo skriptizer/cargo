@@ -1,0 +1,131 @@
+{
+    "title": "Contract Response Schema Without ESBD",
+    "type": "object",
+    "properties": {
+      "data": {
+        "type": "object",
+        "properties": {
+          "current_page": {
+            "type": "number"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "date_begin": {
+                  "type": "string"
+                },
+                "date_end": {
+                  "type": "string"
+                },
+                "esbd_id": {
+                  "type": ["null", "string"]
+                },
+                "gen_contract_num": {
+                  "type": "string"
+                },
+                "global_id": {
+                  "type": ["null", "string"]
+                },
+                "id": {
+                  "type": "number"
+                },
+                "insurance_amount": {
+                  "type": "string"
+                },
+                "number": {
+                  "type": "string"
+                },
+                "premium": {
+                  "type": "string"
+                },
+                "shipments": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "cargo_category": {
+                        "type": "number"
+                      },
+                      "title": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "cargo_category",
+                      "title"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "date_begin",
+                "date_end",
+                "esbd_id",
+                "gen_contract_num",
+                "global_id",
+                "id",
+                "insurance_amount",
+                "number",
+                "premium",
+                "shipments"
+              ]
+            }
+          },
+          "first_page_url": {
+            "type": "string"
+          },
+          "from": {
+            "type": "number"
+          },
+          "last_page": {
+            "type": "number"
+          },
+          "last_page_url": {
+            "type": "string"
+          },
+          "next_page_url": {},
+          "path": {
+            "type": "string"
+          },
+          "per_page": {
+            "type": "number"
+          },
+          "prev_page_url": {},
+          "to": {
+            "type": "number"
+          },
+          "total": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "current_page",
+          "data",
+          "first_page_url",
+          "from",
+          "last_page",
+          "last_page_url",
+          "next_page_url",
+          "path",
+          "per_page",
+          "prev_page_url",
+          "to",
+          "total"
+        ]
+      },
+      "message": {
+        "type": "string"
+      },
+      "success": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "data",
+      "message",
+      "success"
+    ]
+  }
+  

@@ -1,0 +1,26 @@
+{
+    "title": "Contract Cancel Response Schema",
+    "type": "object",
+    "required": ["success", "message", "data"],
+    "properties": {
+      "success": {
+        "type": "boolean"
+      },
+      "message": {
+        "type": "string"
+      },
+      "data": {
+        "type": "object",
+        "required": ["contract_number", "status"],
+        "properties": {
+          "contract_number": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer"
+          }
+        }
+      }
+    }
+  }
+  
